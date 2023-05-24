@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #faebd7;
+    color: #555555;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 30px;
+    margin: 15px;
+}
+
+#mainIMG {
+    width: 80%;
+    height: auto;
+    align-self: center;
+}
+#mainHeader {
+    color: black;
+    font-family: Tahoma;
+    font-size: 40px;
+}
+
+.standardHeader {
+    color: midnightblue;
+    font-family: Tahoma;
+    font-size: 30px;
+    text-align: left;
+}
+
+.standardParagraph {
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+#link {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    color: darkred;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 13px;
+}
+
+#obrazek1 {
+    width: 50%;
+    height: auto;
+    align-self: center;
+}
+
+.divSklep {
+    display: grid;
+    background-color: aquamarine;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 100px;
+}
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divSklep img {
+    max-width: 90%;
+    height: auto;
+}
+
+#listaAdapacja {
+    color: black;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-align: left;
+}
+
+#oliwa {
+    color: olive;
+}
+#masło {
+    color: gold;
+}
+#avocado {
+    color: green;
+}
+#białko {
+    color: hotpink;
+}
+#orzechy {
+    color: saddlebrown;
+}
+#jaja {
+    color: indigo;
+}
+
+#highlitedParagraph {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: darkgreen;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
